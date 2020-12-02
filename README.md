@@ -18,5 +18,18 @@ As a user, I would like...
 - once I click drop the beat I can see my new pin displayed on the map
 
 
+MVP
+- Spotify Api
+- Map 2D
+- Add a pin
 
+
+Stretch
+- User Annon
+- User Location - Only when add pin
+- 3D augmented reality
+- Users/profiles
+- Badges/rewards
+- Timeline
+- Health Spin
 
