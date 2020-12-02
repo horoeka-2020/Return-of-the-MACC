@@ -25,6 +25,7 @@ When stressed I need...(when I’m stressed ... I need...)
 - Anna
 - Caroline
 - Claire
+
 In general I need...(general needs eg. kids, illness, sleep etc)
 - Maria
 - Anna
@@ -52,6 +53,7 @@ In general I need...(general needs eg. kids, illness, sleep etc)
 Individually
 - Technically
 - Non-technically
+
 As a Team
 - Technically
 - Non-technically
