@@ -1,7 +1,6 @@
 # Return-of-the-MACC
 Drop da Beat
 
-
 User Stories:
 As a user, I would like...
 - to see a map of my location
@@ -11,5 +10,13 @@ As a user, I would like...
   - Song
   - Artist
   - Album 
-   - User 
+   - User who dropped it (<input/>)
+   - Date and time (will be automated)
+- the ability to play a song
+- add a pin
+- add a song to that pin
+- once I click drop the beat I can see my new pin displayed on the map
+
+
+
 
