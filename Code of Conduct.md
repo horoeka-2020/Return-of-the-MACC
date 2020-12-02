@@ -1,6 +1,6 @@
 ## Code of Conduct
 
-Our Pledge
+## Our Pledge
 In the interest of fostering an open and welcoming environment, we as team members pledge to making participation in our project a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 Our Standards
