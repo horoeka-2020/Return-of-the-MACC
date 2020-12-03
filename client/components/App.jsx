@@ -1,22 +1,14 @@
-// import React from 'react'
-// import in other components
+import React from 'react'
+import { connect } from 'react-redux'
+// import Header from './Header'
+// import Home from './Home'
+// import { Route } from 'react-router-dom'
 
 // const or class
-// const App = () => {
-// <div>
-// </div>
-// }
+const App = () => (
+  <div>
+    <h1>Yelllooooo ;)</h1>
+  </div>
+)
 
-// render () {
-// return
-//
-// <header>
-//   <h1 className="title"><Link to="/">Garde<span>nz</span></Link></h1>
-//   <Route path="/" component={Nav} />
-// </header>
-// <div className="columns">
-//   <Route exact path='/' component={Home} />
-// </div> /
-// }
-
-// export default App
+export default connect()(App)
