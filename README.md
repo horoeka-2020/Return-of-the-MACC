@@ -1,5 +1,6 @@
 # Return-of-the-MACC
 Drop da Beat
+Group project by Maria Gedye, Anna Green, Caroline Pitcher and Claire Rennie
 
 User Stories:
 As a user, I would like...
