@@ -27,7 +27,7 @@ MVP
 Stretch
 - User Annon
 - User Location - Only when add pin
-- 3D augmented reality
+- 3D
 - Users/profiles
 - Badges/rewards
 - Timeline
