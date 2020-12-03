@@ -2,15 +2,14 @@
   "name": "return-of-the-macc",
   "version": "1.0.0",
   "description": "FINAL GROUP PROJECT",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "jest --watchAll --verbose",
     "start": "node server",
-    "dev:client": "webpack --watch --config client/webpack.config.js",
-    "dev:server": "nodemon --watch server",
-    "dev": "run-p dev:client dev:server",
-    "knex": "knex --knexfile server/db/knexfile.js",
-    "webpack:server": "webpack-dev-server --hot --inline --content-base server/public --config client/webpack.config.js"
+    "client": "webpack --watch",
+    "server": "nodemon server",
+    "dev": "run-p client server",
+    "knex": "knex --knexfile server/db/knexfile.js"
   },
   "repository": {
     "type": "git",
