@@ -7,7 +7,7 @@
 //   return (
 //     <>
 //       <div className='column is-half-tablet'>
-//         <p>or government subsidies</p>
+//         <p></p>
 //         <Link className="" to= /Link>
 //       </div>
 //       <Map/>
