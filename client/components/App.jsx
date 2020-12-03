@@ -7,7 +7,7 @@ import { connect } from 'react-redux'
 // const or class
 const App = () => (
   <div>
-    <h1>Yelllooooo ;)</h1>
+    <h1>Yelllooooo </h1>
   </div>
 )
 

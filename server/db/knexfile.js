@@ -17,10 +17,26 @@ module.exports = {
       filename: ':memory:'
     },
     seeds: {
-      directory: path.join(__dirname, 'seeds')
+      directory: path.join(__dirname, 'tests/seeds')
     },
     migrations: {
       directory: path.join(__dirname, 'migrations')
+    }
+  },
+
+  staging: {
+    client: 'postgresql',
+    connection: {
+      database: 'my_db',
+      user: 'username',
+      password: 'password'
+    },
+    pool: {
+      min: 2,
+      max: 10
+    },
+    migrations: {
+      tableName: 'knex_migrations'
     }
   },
 
