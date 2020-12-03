@@ -3,8 +3,6 @@ const path = require('path')
 module.exports = {
   entry: [
     path.join(__dirname, 'index.js')
-    // , 
-    // path.join(__dirname, 'styles/main.scss')
   ],
   output: {
     path: path.join(__dirname, '../server/public'),
