@@ -14,7 +14,7 @@ exports.seed = (knex) => {
         time_date: ''
       },
       {
-        id: 1,
+        id: 2,
         song_title: 'Hey Jude',
         song_artist: 'The Beatles',
         song_album: 'The White Album',
