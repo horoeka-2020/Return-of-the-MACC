@@ -9,7 +9,6 @@ exports.up = function(knex) {
     table.string('lon')
     table.string('time_date')
   })
-  
 }
 
 exports.down = function(knex) {
