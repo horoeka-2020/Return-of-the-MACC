@@ -19,8 +19,8 @@ As a user, I would like...
 
 
 MVP
-- Spotify Api
 - Map 2D
+- Spotify Api
 - Add a pin
 
 
