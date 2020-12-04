@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 // import Header from './Header'
 // import Home from './Home'
-import { Route } from 'react-router-dom'
+// import { Route } from 'react-router-dom'
 
 // const or class
 const App = () => (
