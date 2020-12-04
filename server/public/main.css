@@ -1,12 +1,25 @@
-/* <!DOCTYPE html>
-<head>
-  <title>Drop tha beat</title>
+body {
+  background-color: burlywood;
+  margin: 30px;
+}
 
-  <link rel="stylesheet" href="/css/main.css">
-</head>
-<body>
-  <div id="app"></div>
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
 
-  <script src="/bundle.js"></script>
-</body>
-</html> */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  body {
+    text-align: center;
+    vertical-align: middle;
+  }  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  body {
+    text-align: center;
+    vertical-align: middle;
+  } 
