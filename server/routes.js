@@ -11,7 +11,7 @@ route.get('/', (req, res) => {
       return res.status(200).json(response)
     })
     .catch(err => {
-      res.status(500).send('DB error' + err)
+      res.status(500).json({ error: err.message })
     })
   })
 
