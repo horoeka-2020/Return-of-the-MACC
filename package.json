@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --watchAll --verbose",
     "start": "node server",
-    "client": "webpack --watch",
+    "client": "webpack --config client/webpack.config.js --watch",
     "server": "nodemon server",
     "dev": "run-p client server",
     "knex": "knex --knexfile server/db/knexfile.js"
@@ -22,6 +22,16 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/horoeka-2020/Return-of-the-MACC/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
   },
   "homepage": "https://github.com/horoeka-2020/Return-of-the-MACC#readme",
   "dependencies": {
