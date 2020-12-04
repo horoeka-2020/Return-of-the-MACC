@@ -1,63 +1,27 @@
 import React from 'react'
-// import { connect } from 'react-redux'
+import { Route } from 'react-router-dom'
+import { connect } from 'react-redux'
 import Header from './Header'
 import PinsList from './PinsList'
-import ErrorMessage from './ErrorMessage'
+// import PinsListDetails from './PinsListDetails'
 // import Home from './Home'
-// import { Route } from 'react-router-dom'
 
-import { getPins } from '../api'
+// import { getPins } from '../api'
 
 // const or class
-export default class App extends React.Component {
-  state = {
-    error: null,
-    pins: []
-  }
-
+class App extends React.Component {
   componentDidMount () {
-    this.refreshList()
+    this.props
   }
-
-  renderPins = (pins) => {
-    this.setState({
-      error: null,
-      pins: pins
-    })
-  }
-
-  renderError = (err) => {
-    this.setState({
-      error: err,
-      pins: []
-    })
-  }
-
-  refreshList = (err) => {
-    this.setState({
-      error: err
-    })
-
-    getPins()
-    .then(pins => {
-      this.renderPins(pins)
-    })
-    .catch(err => {
-      this.renderError(err)
-    })
-  }
-
 
   render () {
     return (
-      <div>
-        <ErrorMessage error={this.state.error} />
+      <>
         <Header />
-        <h1>it's working!!</h1>
-        <PinsList />
-        </div>
-      )
+        <Route path='/' component={PinsList} />
+      </>
+    )
   }
 }
 
-// export default connect()(App)
+export default connect()(App)
