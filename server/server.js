@@ -2,6 +2,8 @@ const path = require('path')
 
 const express = require('express')
 
+const routes = require('./routes')
+
 const server = express()
 
 
@@ -14,6 +16,8 @@ const server = express()
 // Telling te server to use json (Javascript Object Notation) to pass objects as text to the server*
 server.use(express.json())
 server.use(express.static(path.join(__dirname, 'public')))
+
+server.use('/api/v1/', routes)
 
 
 
