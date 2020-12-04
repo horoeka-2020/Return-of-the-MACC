@@ -22,7 +22,7 @@ export default class App extends React.Component {
   renderPins = (pins) => {
     this.setState({
       error: null,
-      widgets: pins
+      pins: pins
     })
   }
 
