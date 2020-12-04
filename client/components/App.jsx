@@ -1,15 +1,15 @@
 import React from 'react'
-// import { Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Header from './Header'
-// import PinsList from './PinsList'
+import PinsList from './PinsList'
 // import PinsListDetails from './PinsListDetails'
 // import Home from './Home'
 
 // import { getPins } from '../api'
 
 // const or class
-export default class App extends React.Component {
+class App extends React.Component {
   componentDidMount () {
     this.props
   }
@@ -18,10 +18,10 @@ export default class App extends React.Component {
     return (
       <>
         <Header />
-        <h1>it's working!!</h1>
+        <Route path='/' component={PinsList} />
       </>
     )
   }
 }
 
-// export default connect()(App)
+export default connect()(App)
