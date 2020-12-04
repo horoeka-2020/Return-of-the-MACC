@@ -8,6 +8,6 @@ const store = createStore(composeEnhancers(
   // applyMiddleware(thunkMiddleware)
 ))
 
-export const dispatch = store.dispatch
+// export const dispatch = store.dispatch
 export const getState = store.getState
 export default store
