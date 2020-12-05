@@ -2,6 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Header from './Header'
+import Footer from './Footer'
 import PinsList from './PinsList'
 // import PinsListDetails from './PinsListDetails'
 // import Home from './Home'
@@ -19,6 +20,7 @@ class App extends React.Component {
       <>
         <Header />
         <Route path='/' component={PinsList} />
+        <Footer />
       </>
     )
   }
