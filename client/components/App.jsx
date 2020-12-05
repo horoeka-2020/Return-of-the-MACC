@@ -3,12 +3,12 @@ import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Header from './Header'
 import PinsList from './PinsList'
+import Map from './Map'
 // import PinsListDetails from './PinsListDetails'
 // import Home from './Home'
 
 // import { getPins } from '../api'
 
-// const or class
 class App extends React.Component {
   componentDidMount () {
     this.props
@@ -19,6 +19,7 @@ class App extends React.Component {
       <>
         <Header />
         <Route path='/' component={PinsList} />
+        <Route path='/' component={Map} />
       </>
     )
   }

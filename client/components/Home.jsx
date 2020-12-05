@@ -1,17 +1,13 @@
-// import React from 'react'
-// import {  } from 'react-router-dom'
+import React from 'react'
+import { connect } from 'react-redux'
 
-// import Map from './Map'
+import Map from './Map'
 
-// function Home () {
-//   return (
-//     <>
-//       <div className='column is-half-tablet'>
-//         <p></p>
-//         <Link className="" to= /Link>
-//       </div>
-//       <Map/>
-//     </>
-//   )
-// }
-// export default Home
+function Home () {
+  return (
+    <>
+{/* ...  */}
+    </>
+  )
+}
+export default connect()(Home)
