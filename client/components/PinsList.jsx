@@ -2,33 +2,28 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { getPins } from '../api/apipins'
 
-// import PinsListItem from './PinsListItem'
+import PinsListItem from './PinsListItem'
 
 class PinsList extends React.Component {
   state = {
     song: '',
     artist: '',
     album: '',
-    username: '',
-    spotify_link: ''
+    username: ''
   }
 
 componentDidMount () {
   return getPins()
-  .then(pin => {
-    const { song, artist, album, username, spotify_link } = pin[0]
+  .then((pin) => {
+    console.log(pin)
     this.setState({
-      song: song,
-      artist: artist,
-      album: album,
-      username: username,
-      spotify_link: spotify_link
+      pin: pin
     })
     return null
   })
 }
 render () {
-  const { song, artist, album, username, spotify_link } = this.state
+  const { song, artist, album, username } = this.state
   return (
     <section className='container m-5'>
       <div className="columns p-5"> 
@@ -42,9 +37,10 @@ render () {
         <div className="column">
           <p><em>{username}</em></p>
         </div>
-        </div>
-    </section>
+      </div>
+      </section>
     )
   }
 }
 export default connect()(PinsList)
+
