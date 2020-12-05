@@ -2,12 +2,14 @@ import React from 'react'
 
 function Header () {
     return (
-      <header className='container'>
-        <h1>Drop tha beat</h1>
-        <p>Return of the MACC</p>
-      </header>
+      <header className='container m-8'>
+        <div className='block'>
+          <h1 className='title is-1'>Drop the beat</h1>
+        </div>
+      </header> 
     )
   }
+  
   export default Header
 
   // export default connect()(Header)
