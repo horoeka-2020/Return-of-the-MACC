@@ -5,19 +5,19 @@ exports.seed = (knex) => {
       // Inserts seed entries
       return knex('pins').insert([{
         id: 1,
-        song_title: 'Here comes the sun',
-        song_artist: 'The Beatles',
-        song_album: 'Abbey Road',
-        username: 'Caz',
+        song_title: 'Drop the beat down',
+        song_artist: 'Return of the Macc',
+        song_album: 'Go away beatles',
+        username: 'Spotify',
         lat: '',
         lon: '',
         time_date: ''
       },
       {
         id: 2,
-        song_title: 'Hey Jude',
-        song_artist: 'The Beatles',
-        song_album: 'The White Album',
+        song_title: 'Hey Mama',
+        song_artist: 'Black eyed peas',
+        song_album: 'Where is the love',
         username: 'Anna',
         lat: '',
         lon: '',
