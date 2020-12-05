@@ -6,44 +6,40 @@ import { getPins } from '../api/apipins'
 
 class PinsList extends React.Component {
   state = {
-    song_title: '',
-    song_artist: '',
-    song_album: '',
+    song: '',
+    artist: '',
+    album: '',
     username: '',
-    lat: '',
-    lon: '',
-    time_date: ''
+    spotify_link: ''
   }
 
 componentDidMount () {
   return getPins()
   .then(pin => {
-    const { song_title, song_artist, song_album, username, lat, lon, time_date } = pin[0]
+    const { song, artist, album, username, spotify_link } = pin[0]
     console.log(pin)
     this.setState({
-      song_title: song_title,
-      song_artist: song_artist,
-      song_album: song_album,
+      song: song,
+      artist: artist,
+      album: album,
       username: username,
-      lat: lat,
-      lon: lon,
-      time_date: time_date
+      spotify_link: spotify_link
     })
     console.log(this.state)
     return null
   })
 }
 render () {
-  const { song_title, song_artist, song_album, username, lat, lon, time_date } = this.state
+  const { song, artist, album, username, spotify_link } = this.state
   return (
     <section className='container m-5'>
       <div className="columns p-5"> 
         <div className="column">
-          <h3>{song_title}</h3>
+          <h3>{song}</h3>
         </div>
         <div className="column">
-          <p>{song_artist}</p>
-          <p>{song_album}</p>
+          <p>{artist}</p>
+          <p>{album}</p>
         </div>
         <div className="column">
           <p><em>{username}</em></p>

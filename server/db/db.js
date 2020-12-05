@@ -8,11 +8,11 @@ module.exports = {
 }
 
 function getPins(db = connection) {
-  return db('pins').select()
+  return db('pin_info').select()
 }
 // the above returns the pins table and selects the whole thing
 
 function addPin(newPin) {
-  return db('pins').insert(newPin)
+  return db('pin_info').insert(newPin)
 }
 // the above returns the pins table with a newPin inserted
