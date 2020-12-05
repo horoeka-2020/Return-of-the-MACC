@@ -1,40 +1,62 @@
-// import React from 'react'
+import React from 'react'
 
+class AddPin extends React.Component {
+    state = {
+        title: '',
+        artist: '',
+        album: ''
+    }
 
-// export default class AddPin extends React.Component {
-//     state = {
-//       title: '',
-//       artist: '',
-//       album: ''
-//     }
+    handleChange = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
 
-//     changeThis = e => {
-//         this.setState({
-//           ...this.state,
-//           [e.target.name]: e.target.value
-//         })
-//       }
+    handleSubmit = (e) => {
+        e.preventDefault()
+        // implement submit
+    }
 
-//       clickThis = e => {
-//         const add = this.state
-//         addPin(add)
-//       }
+    render() {
+        return (
+                <>
+                 <div className="column">
+                        <h1>Add a Pin</h1>
+                        <form>
+                            <h5>Title</h5>
+                            <input
+                                //   className="input is-normal"
+                                type="text"
+                                //   placeholder="event title"
+                                name="title"
+                                value={this.state.title}
+                                onChange={this.handleChange}
+                            />
 
-//       render () {
-//         const { title, artist, album} = this.state
-//         return (
-//           <>
-//             <label>Title</label>
-//             <input type="text" value={title} onChange={this.changeThis} name="title"></input>
-//             <label>Artist</label>
-//             <input type="text" value={artist} onChange={this.changeThis} name="artist"></input>
-//             <label>Album</label>
-//             <input type="text" value={album} onChange={this.changeThis} name="album"></input>
-    
-//             <button onClick={() => { addPin(this) }}>Add Pin</button>
-//           </>
-//         )
-//       }
-//     }
+                            <h5>Artist</h5>
+                            <input
+                                //   className="input is-normal"
+                                type="text"
+                                name="artist"
+                                value={this.state.artist}
+                                onChange={this.handleChange}
+                            />
 
-    
+                            <h5>Album</h5>
+                            <input
+                                //   className="input is-normal"
+                                type="text"
+                                name="album"
+                                value={this.state.album}
+                                onChange={this.handleChange}
+                            />
+
+                        </form>
+                    </div>
+                </>
+             )
+        }
+    }
+                
+export default AddPin
