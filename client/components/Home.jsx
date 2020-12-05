@@ -1,17 +1,24 @@
-// import React from 'react'
-// import {  } from 'react-router-dom'
+import React from 'react'
+import {  } from 'react-router-dom'
 
 // import Map from './Map'
 
-// function Home () {
-//   return (
-//     <>
-//       <div className='column is-half-tablet'>
-//         <p></p>
-//         <Link className="" to= /Link>
-//       </div>
-//       <Map/>
-//     </>
-//   )
-// }
-// export default Home
+function Home () {
+  return (
+      <button className='button'>
+        <div className='block'>
+          <h1 className='title is-1'>Add a pin</h1>
+          </div>
+      </button>
+              {/* // data-testid="submit-button"
+              // onClick={this.handleClick}>
+            </button> */}
+  )
+}
+// class button 
+
+
+{/* <Link className="" to= /Link> */}
+{/* // <Map/> */}
+
+export default Home
