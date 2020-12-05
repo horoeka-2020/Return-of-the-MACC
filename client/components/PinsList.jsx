@@ -37,7 +37,7 @@ render () {
   const { song_title, song_artist, song_album, username, lat, lon, time_date } = this.state
   return (
     <section className='container m-5'>
-      <div className="columns p-2"> 
+      <div className="columns p-5"> 
         <div className="column">
           <h3>{song_title}</h3>
         </div>
@@ -48,7 +48,7 @@ render () {
         <div className="column">
           <p><em>{username}</em></p>
         </div>
-      </div>
+        </div>
     </section>
     )
   }
