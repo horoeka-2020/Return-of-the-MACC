@@ -5,7 +5,6 @@ class Map extends React.Component {
   render () {
     return (
         <MapContainer
-          height={'200px'}
           center={[-36.8666700, 174.7666700]}
           zoom={16}
           scrollWheelZoom={true}>
@@ -18,7 +17,6 @@ class Map extends React.Component {
             </Popup>
           </Marker>
         </MapContainer>
-
     )
   }
 }
