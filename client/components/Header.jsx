@@ -2,11 +2,10 @@ import React from 'react'
 
 function Header () {
     return (
-      <>
-        <h1><span className=""></span> Drop tha beat <span className=""></span></h1>
-
-        <p className="">Return of the MACC</p>
-      </>
+      <header className='container'>
+        <h1>Drop tha beat</h1>
+        <p>Return of the MACC</p>
+      </header>
     )
   }
   export default Header

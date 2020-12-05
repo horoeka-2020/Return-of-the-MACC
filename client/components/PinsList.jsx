@@ -36,12 +36,20 @@ componentDidMount () {
 render () {
   const { song_title, song_artist, song_album, username, lat, lon, time_date } = this.state
   return (
-    <>
-      <h3>{song_title}</h3>
-        <p>{song_artist}</p>
-        <p>{song_album}</p>
-        <p><i>{username}</i></p>
-    </>
+    <section className='container m-5'>
+      <div className="columns p-2"> 
+        <div className="column">
+          <h3>{song_title}</h3>
+        </div>
+        <div className="column">
+          <p>{song_artist}</p>
+          <p>{song_album}</p>
+        </div>
+        <div className="column">
+          <p><em>{username}</em></p>
+        </div>
+      </div>
+    </section>
     )
   }
 }
