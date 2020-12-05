@@ -17,7 +17,6 @@ componentDidMount () {
   return getPins()
   .then(pin => {
     const { song, artist, album, username, spotify_link } = pin[0]
-    console.log(pin)
     this.setState({
       song: song,
       artist: artist,
@@ -25,7 +24,6 @@ componentDidMount () {
       username: username,
       spotify_link: spotify_link
     })
-    console.log(this.state)
     return null
   })
 }
