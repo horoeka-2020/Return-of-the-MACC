@@ -6,10 +6,7 @@ import PinsListItem from './PinsListItem'
 
 class PinsList extends React.Component {
   state = {
-    song: '',
-    artist: '',
-    album: '',
-    username: ''
+    pin: []
   }
 
 componentDidMount () {
@@ -19,28 +16,17 @@ componentDidMount () {
     this.setState({
       pin: pin
     })
-    return null
   })
 }
+
 render () {
-  const { song, artist, album, username } = this.state
   return (
-    <section className='container m-5'>
-      <div className="columns p-5"> 
-        <div className="column">
-          <h3>{song}</h3>
-        </div>
-        <div className="column">
-          <p>{artist}</p>
-          <p>{album}</p>
-        </div>
-        <div className="column">
-          <p><em>{username}</em></p>
-        </div>
-      </div>
-      </section>
+    <section class='columns m-5'>
+      {this.state.pin.map((pin) => <PinsListItem key={pin.id} pin={pin}/>)}
+    </section>
     )
   }
 }
-export default connect()(PinsList)
 
+// export default connect()(PinsList)
+export default PinsList
