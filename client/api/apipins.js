@@ -8,7 +8,7 @@ export function getPins (consume = requestor) {
 }
 
 export function addPins (consume = requestor) {
-  return consume('/form')
+  return consume('/form', 'post', newPin)
     .then(res => {
       return res.body
     })
