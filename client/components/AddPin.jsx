@@ -53,7 +53,7 @@ class AddPin extends React.Component {
                                 value={this.state.album}
                                 onChange={this.handleChange}
                             />
-                                                                                <h5>Username</h5>
+                                                                                                      <h5>Username</h5>
                             <input
                                 //   className="input is-normal"
                                 type="text"

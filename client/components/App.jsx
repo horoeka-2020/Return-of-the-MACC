@@ -20,8 +20,8 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <Route path='/' component={PinsList} />
-        <Route path='/' component={AddPin} />
+        <Route exact path='/' component={PinsList} />
+        <Route path='/form' component={AddPin} />
         <Footer />
       </>
     )

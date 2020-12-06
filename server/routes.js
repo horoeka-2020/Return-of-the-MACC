@@ -15,7 +15,7 @@ route.get('/', (req, res) => {
     })
   })
 
-route.post('/', (req, res) => {
+route.post('/form', (req, res) => {
   db.addPin(req.body)
     .then((response) => {
       return res.status(201).json(response)
