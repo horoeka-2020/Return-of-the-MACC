@@ -11,7 +11,7 @@ exports.seed = function(knex) {
           artist: 'Joni Mitchell', 
           album: 'Ladies of the Canyon', 
           username: 'mg23', 
-          spotify_url: 'https://open.spotify.com/playlist/37i9dQZF1DWY5Nosj13GLt'
+          spotify_link: 'https://open.spotify.com/album/4RuzGKLG99XctuBMBkFFOC'
         },
         {
           id: 2, 
@@ -20,7 +20,7 @@ exports.seed = function(knex) {
           artist: 'Katy Perry',
           album: 'Smile',
           username: 'ag14',
-          spotify_url: 'https://open.spotify.com/playlist/37i9dQZF1DWX37VefS7A1r'
+          spotify_link: 'https://open.spotify.com/playlist/37i9dQZF1DWX37VefS7A1r'
         },
         {
           id: 3,
@@ -29,7 +29,7 @@ exports.seed = function(knex) {
           artist: 'Jason Derulo',
           album: 'Take you dancing',
           username: 'cc55s',
-          spotify_url: 'https://open.spotify.com/playlist/37i9dQZF1DX9xBD5FRuUu9'
+          spotify_link: 'https://open.spotify.com/playlist/37i9dQZF1DX9xBD5FRuUu9'
         },
       ]);
     });

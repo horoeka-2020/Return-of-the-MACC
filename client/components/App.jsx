@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import Header from './Header'
 import Footer from './Footer'
 import PinsList from './PinsList'
+import Map from './Map'
 import AddPin from './AddPin'
 import Description from './Description'
 
@@ -12,7 +13,6 @@ import Description from './Description'
 
 // import { getPins } from '../api'
 
-// const or class
 class App extends React.Component {
   componentDidMount () {
     this.props
@@ -22,8 +22,9 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <Route path='/' component={PinsList} />
-        <Route path='/' component={AddPin} />
+        <Route exact path='/' component={PinsList} />
+        <Route path='/' component={Map} />
+        <Route path='/form' component={AddPin} />
         <Footer />
       </>
     )
