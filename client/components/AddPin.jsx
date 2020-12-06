@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 class AddPin extends React.Component {
     state = {
         song: '',
@@ -22,8 +23,8 @@ class AddPin extends React.Component {
 
     render() {
         return (
-                <>
-                 <div className="column">
+            <>
+                 {/* <div class="columns is-mobile is-multiline is-centered"> */}
                         <h1>Add a Pin</h1>
                         <form>
                             <h5>Song</h5>
@@ -72,15 +73,21 @@ class AddPin extends React.Component {
                             />
 
                             <button
-                            className="button"
+                            className="button is-success"
                             onClick={this.handleSubmit}
                             >Add Pin</button>
 
                         </form>
-                    </div>
-                </>
-             )
-        }
+                {/* </div> */}
+            </>
+          )
     }
-                
+}
+
+    
+    
+
+
+
+    
 export default AddPin

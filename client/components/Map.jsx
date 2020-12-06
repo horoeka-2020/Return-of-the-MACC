@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 class Map extends React.Component {
   render () {
     return (
+      <div class="map is-multiline is-mobile">
         <MapContainer
           center={[-36.8666700, 174.7666700]}
           zoom={16}
@@ -17,8 +18,10 @@ class Map extends React.Component {
             </Popup>
           </Marker>
         </MapContainer>
+      </div>  
     )
   }
 }
+
 
 export default Map
