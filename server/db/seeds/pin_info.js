@@ -11,7 +11,7 @@ exports.seed = function(knex) {
           artist: 'Joni Mitchell', 
           album: 'Ladies of the Canyon', 
           username: 'mg23', 
-          spotify_link: 'https://open.spotify.com/album/4RuzGKLG99XctuBMBkFFOC'
+          spotify_link: 'https://open.spotify.com/embed/track/6UkMcAA19lTdjs22jtB7o2'
         },
         {
           id: 2, 

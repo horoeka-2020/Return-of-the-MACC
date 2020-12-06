@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Description = props => {
+const Description = () => {
   const spotify_link = spotify_link
 return (
   <div className='description'>

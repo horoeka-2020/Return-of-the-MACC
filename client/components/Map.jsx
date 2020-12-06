@@ -13,7 +13,7 @@ class Map extends React.Component {
           <Marker
             position={[-36.8666700, 174.7666700]}>
             <Popup>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias, officiis dolor doloribus aliquam hic eos inventore cum nihil quae, nisi non mollitia eum quo illo velit. Numquam, amet quae?
+            <iframe src="https://open.spotify.com/embed/track/6UkMcAA19lTdjs22jtB7o2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </Popup>
           </Marker>
         </MapContainer>

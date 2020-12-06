@@ -6,7 +6,7 @@ import Footer from './Footer'
 import PinsList from './PinsList'
 import Map from './Map'
 import AddPin from './AddPin'
-import Description from './Description'
+
 
 // import PinsListDetails from './PinsListDetails'
 // import Home from './Home'

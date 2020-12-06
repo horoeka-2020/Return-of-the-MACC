@@ -1,4 +1,5 @@
 import React from 'react'
+import Description from './Description'
 
 class AddPin extends React.Component {
     state = {
@@ -77,6 +78,8 @@ class AddPin extends React.Component {
                             >Add Pin</button>
 
                         </form>
+
+                        <Description/>
                     </div>
                 </>
              )
