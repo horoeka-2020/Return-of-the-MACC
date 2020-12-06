@@ -62,7 +62,7 @@ Individually
 - Technically
 Caroline: Asking facilitators, console logging, asking other people in our cohort for help especially if it's something they previously did in a project
 - Non-technically
-Caroline: getting coffee, taking a walk, taking a break
+Caroline: getting coffee and/or food, taking a walk, taking a break
 
 As a Team
 - Technically: After exhausting our own methods within the group(google, code examples, psuedocode etc), we will approach one of the facilitators for help
