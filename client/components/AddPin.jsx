@@ -66,10 +66,15 @@ class AddPin extends React.Component {
                             <input
                                 //   className="input is-normal"
                                 type="text"
-                                name="spotifylink"
+                                name="spotify_link"
                                 value={this.state.spotify_link}
                                 onChange={this.handleChange}
                             />
+
+                            <button
+                            className="button"
+                            onClick={this.handleSubmit}
+                            >Add Pin</button>
 
                         </form>
                     </div>

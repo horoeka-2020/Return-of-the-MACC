@@ -21,7 +21,7 @@ componentDidMount () {
 
 render () {
   return (
-    <section class='columns m-5'>
+    <section className='columns m-5'>
       {this.state.pin.map((pin) => <PinsListItem key={pin.id} pin={pin}/>)}
     </section>
     )
