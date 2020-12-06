@@ -10,6 +10,7 @@ function Home () {
           <h1 className='title is-1'>Add a pin</h1>
           </div>
       </button>
+      
               {/* // data-testid="submit-button"
               // onClick={this.handleClick}>
             </button> */}

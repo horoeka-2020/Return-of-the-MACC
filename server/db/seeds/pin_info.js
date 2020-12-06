@@ -5,9 +5,32 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('pin_info').insert([
-        {id: 1, pin_id: 1, song: 'Big Yellow Taxi', artist: 'Joni Mitchell', album: 'Ladies of the Canyon', username: 'mg23', spotify_link: 'http://spotifyapi...'},
-        {id: 2, pin_id: 2, song: 'Harleys in Hawaii', artist: 'Katy Perry', album: 'Smile', username: 'ag14', spotify_link: 'http://spotifyapi...'},
-        {id: 3, pin_id: 3, song: 'Take you dancing', artist: 'Jason Derulo', album: 'Take you dancing', username: 'cc55s', spotify_link: 'http://spotifyapi...'},
+        {
+          id: 1, 
+          pin_id: 1, song: 'Big Yellow Taxi', 
+          artist: 'Joni Mitchell', 
+          album: 'Ladies of the Canyon', 
+          username: 'mg23', 
+          spotify_url: 'https://open.spotify.com/playlist/37i9dQZF1DWY5Nosj13GLt'
+        },
+        {
+          id: 2, 
+          pin_id: 2, 
+          song: 'Harleys in Hawaii',
+          artist: 'Katy Perry',
+          album: 'Smile',
+          username: 'ag14',
+          spotify_url: 'https://open.spotify.com/playlist/37i9dQZF1DWX37VefS7A1r'
+        },
+        {
+          id: 3,
+          pin_id: 3, 
+          song: 'Take you dancing', 
+          artist: 'Jason Derulo',
+          album: 'Take you dancing',
+          username: 'cc55s',
+          spotify_url: 'https://open.spotify.com/playlist/37i9dQZF1DX9xBD5FRuUu9'
+        },
       ]);
     });
 };
