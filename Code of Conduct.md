@@ -24,13 +24,13 @@ Examples of unacceptable behavior by participants include:
 When stressed I need...(when I’m stressed ... I need...)
 - Maria: when stressed I seem flustered, feel hot in face. I need a break from the screen, to walk around the room and talk to other people
 - Anna: I need small breaks eg. walk, cuppa
-- Caroline: I need
+- Caroline: I need a break to walk around and maybe go outside
 - Claire: when stressed I will shut down a bit but will communicate if I need space
 
 In general I need...(general needs eg. kids, illness, sleep etc)
 - Maria: I get really tired sometimes and may need a 15min nap
 - Anna:
-- Caroline:
+- Caroline: To feel positive and like things are moving in the right direction. also coffee
 - Claire:
 
 ## Our Key Expectations
@@ -54,15 +54,17 @@ Time-boxing will be crucial for our chatty vibes
 - Eating together:
   - Maria: prefers lunches together
   - Anna:
-  - Caroline: prefers to eat together and also on her own
+  - Caroline: likes to eat together but also sometimes prefers to eat on her own
   - Claire:
 
 ## Our Troubleshooting Strategies (How we get help)
 Individually
 - Technically
+Caroline: Asking facilitators, console logging, asking other people in our cohort for help especially if it's something they previously did in a project
 - Non-technically
+Caroline: getting coffee and/or food, taking a walk, taking a break
 
 As a Team
-- Technically: After exhausting our own methods within the group(google, code examples, psuedocode etc), we will approach one of the facilitators for help
-- Non-technically: 
+- Technically: After exhausting our own methods within the group (google, code examples, psuedocode etc), we will approach one of the facilitators for help
+- Non-technically: Supporting each other as team members to take care of ourselves and our obligations outside EDA, encouraging each other to take breaks, eat, get enough sleep, etc. Also maybe doing meditation and yoga as a group
 

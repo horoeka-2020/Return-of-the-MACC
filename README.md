@@ -26,7 +26,8 @@ MVP
 
 
 Stretch
-- User Annon
+- Deploy to Heroku
+- User Anon
 - User Location - Only when add pin
 - 3D
 - Users/profiles
