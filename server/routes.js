@@ -16,7 +16,14 @@ route.get('/', (req, res) => {
   })
 
 route.post('/form', (req, res) => {
-  db.addPin(req.body)
+  const newPin = {
+    song: req.body.song,
+    artist: req.body.artist,
+    album: req.body.album,
+    username: req.body.username,
+    spotify_link: req.body.spotify_link
+  }
+  db.addPin(newPin)
     .then((response) => {
       return res.status(201).json(response)
     })
