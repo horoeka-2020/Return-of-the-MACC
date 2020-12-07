@@ -1,4 +1,6 @@
 import React from 'react'
+// import { connect } from 'react-redux'
+import { addPins } from '../api/apipins'
 
 class AddPin extends React.Component {
     state = {
@@ -18,6 +20,8 @@ class AddPin extends React.Component {
     handleSubmit = (e) => {
         e.preventDefault()
         // implement submit
+        const pin = this.state
+        addPins(pin)
     }
 
     render() {
@@ -25,7 +29,7 @@ class AddPin extends React.Component {
                 <>
                  <div className="column">
                         <h1>Add a Pin</h1>
-                        <form>
+                        <div>
                             <h5>Song</h5>
                             <input
                                 //   className="input is-normal"
@@ -76,7 +80,7 @@ class AddPin extends React.Component {
                             onClick={this.handleSubmit}
                             >Add Pin</button>
 
-                        </form>
+                        </div>
                     </div>
                 </>
              )
