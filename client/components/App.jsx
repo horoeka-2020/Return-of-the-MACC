@@ -4,9 +4,8 @@ import { connect } from 'react-redux'
 import Header from './Header'
 import Footer from './Footer'
 import PinsList from './PinsList'
-import Map from './Map'
+import Home from './Home'
 import AddPin from './AddPin'
-// import Home from './Home'
 
 // import { getPins } from '../api'
 
@@ -19,8 +18,10 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        {/* May need to put home in react route */}
+        <Home />
         <Route exact path='/' component={PinsList} />
-        <Route path='/' component={Map} />
+        {/* <Route path='/' component={Home} /> */}
         <Route path='/form' component={AddPin} />
         <Footer />
       </>
