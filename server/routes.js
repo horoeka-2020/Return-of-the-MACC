@@ -5,14 +5,9 @@ const route = express.Router()
 route.use(express.json())
 
 route.get('/', (req, res) => {
-  Promise.all([db.getPins(), db.getLocation(id)])
+  db.getPins()
     .then((response) => {
-      const viewData = {
-        pinInfo: response[0],
-        location: response[1]
-      }
-      // res.send('hey there frend!')
-      return res(viewData).status(200).json(response)
+      return res.status(200).json(response)
     })
     .catch(err => {
       res.status(500).json({ error: err.message })

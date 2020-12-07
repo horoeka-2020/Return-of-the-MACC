@@ -10,7 +10,6 @@ class Home extends React.Component {
   componentDidMount () {
     return getPins()
     .then((pinsCoordinates) => {
-      console.log(pinsCoordinates)
       this.setState({
         pinsCoordinates: pinsCoordinates
       })
