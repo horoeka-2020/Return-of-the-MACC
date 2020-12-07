@@ -15,10 +15,19 @@ route.get('/', (req, res) => {
     })
   })
 
-route.post('/', (req, res) => {
-  db.addPin(req.body)
+route.post('/form', (req, res) => {
+  const { song, artist, album, username, spotify_link} = req.body
+  const newPin = {
+    song,
+    artist,
+    album,
+    username,
+    spotify_link
+  }
+  db.addPin(newPin)
     .then((response) => {
-      return res.status(201).json(response)
+      res.status(201).json(response)
+      return null
     })
     .catch(err => {
       res.status(500).send('DB error' + err)

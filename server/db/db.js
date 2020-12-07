@@ -12,7 +12,7 @@ function getPins(db = connection) {
 }
 // the above returns the pins table and selects the whole thing
 
-function addPin(newPin) {
+function addPin(newPin, db = connection) {
   return db('pin_info').insert(newPin)
 }
 // the above returns the pins table with a newPin inserted

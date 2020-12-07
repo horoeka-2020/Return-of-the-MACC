@@ -6,3 +6,10 @@ export function getPins (consume = requestor) {
       return res.body
     })
 }
+
+export function addPins (consume = requestor) {
+  return consume('/form', 'post', newPin)
+    .then(res => {
+      return res.body
+    })
+}
