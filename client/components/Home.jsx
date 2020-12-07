@@ -7,6 +7,7 @@ import AddPin from './AddPin'
 
 function Home () {
   return (
+    //changes the body; colour, spacing etc
     <div className="is-fullwidth py-5">
       <main className="container is-fluid">
         {/* <Route exact path='/' component={PinsList} /> */}
