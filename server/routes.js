@@ -7,7 +7,6 @@ route.use(express.json())
 route.get('/', (req, res) => {
   db.getPins()
     .then((response) => {
-      // res.send('hey there frend!')
       return res.status(200).json(response)
     })
     .catch(err => {

@@ -34,4 +34,3 @@ Stretch
 - Badges/rewards
 - Timeline
 - Health Spin
-
