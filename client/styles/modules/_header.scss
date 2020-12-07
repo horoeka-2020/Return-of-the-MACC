@@ -1,6 +1,5 @@
 header {
   &.container.is-fluid {
-  background-color: $red;
   padding-left: 0px;
   padding-right: 0px;
   text-align: center;
@@ -8,7 +7,7 @@ header {
 }
 
 .button {
-  background-color: $red;
+  background-color: $$electricviolet;
   padding: 5rem 0;
   font-size: $size-1;
 }
