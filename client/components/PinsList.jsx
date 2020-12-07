@@ -12,7 +12,6 @@ class PinsList extends React.Component {
 componentDidMount () {
   return getPins()
   .then((pin) => {
-    console.log(pin)
     this.setState({
       pin: pin
     })

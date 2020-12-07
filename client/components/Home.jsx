@@ -1,20 +1,28 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { Route } from 'react-router-dom'
-import PinsList from './PinsList'
 import Map from './Map'
-import AddPin from './AddPin'
+import { getPins } from '../api/apipins'
 
-function Home () {
-  return (
-    //changes the body; colour, spacing etc
-    <div className="is-fullwidth py-5">
-      <main className="container is-fluid">
-        {/* <Route exact path='/' component={PinsList} /> */}
-        <Route path='/' component={Map} />
-        <Route path='/form' component={AddPin} />
-      </main>
-    </div>
+class Home extends React.Component {
+  state = {
+    pinsCoordinates: []
+  }
+  componentDidMount () {
+    return getPins()
+    .then((pinsCoordinates) => {
+      this.setState({
+        pinsCoordinates: pinsCoordinates
+      })
+    })
+  }
+  render() {
+    const { pinsCoordinates } = this.state
+    return (
+      <>
+        <Map pinsCoordinates={pinsCoordinates} />
+      </> 
   )
+}
 }
 export default connect()(Home)
