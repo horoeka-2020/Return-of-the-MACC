@@ -24,61 +24,70 @@ class AddPin extends React.Component {
     render() {
         return (
             <>
-                 {/* <div class="columns is-mobile is-multiline is-centered"> */}
-                        <h1>Add a Pin</h1>
-                        <form>
-                            <h5>Song</h5>
+                <div className='columns is-centered'>
+                    <div className="column is-half">
+                        <h1 className="py-4">Add a Pin</h1>
+                        <div className="field">
+                            <label>Song</label>
                             <input
-                                //   className="input is-normal"
+                                className="input"
                                 type="text"
-                                //   placeholder="event title"
                                 name="song"
                                 value={this.state.title}
                                 onChange={this.handleChange}
                             />
-
-                            <h5>Artist</h5>
+                        </div>
+                        <div className="field">
+                            <label>Artist</label>
                             <input
-                                //   className="input is-normal"
+                                className="input"
                                 type="text"
                                 name="artist"
                                 value={this.state.artist}
                                 onChange={this.handleChange}
                             />
-
-                            <h5>Album</h5>
+                        </div>
+                        <div className="field">
+                            <label>Album</label>
                             <input
-                                //   className="input is-normal"
+                                className="input"
                                 type="text"
                                 name="album"
                                 value={this.state.album}
                                 onChange={this.handleChange}
                             />
-                                                                                                                                      <h5>Username</h5>
+                        </div>
+                        <div className="field">
+                            <label>Username</label>
                             <input
-                                //   className="input is-normal"
+                                className="input"
                                 type="text"
                                 name="username"
                                 value={this.state.username}
                                 onChange={this.handleChange}
                             />
-
-                            <h5>Spotify link</h5>
+                        </div>
+                        <div className="field">
+                            <label>Spotify Link</label>
                             <input
-                                //   className="input is-normal"
+                                className="input"
                                 type="text"
                                 name="spotify_link"
                                 value={this.state.spotify_link}
                                 onChange={this.handleChange}
                             />
-
-                            <button
-                            className="button is-success"
-                            onClick={this.handleSubmit}
-                            >Add Pin</button>
-
-                        </form>
-                {/* </div> */}
+                        </div>
+                        <div className="field">
+                            <p className="control">
+                            <button 
+                                className="button is-success"
+                                onClick={this.handleSubmit}>
+                                Add Pin
+                            </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </>
           )
     }
