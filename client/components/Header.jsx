@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header () {
     return (
       <div className="is-fullwidth p-5">
         <header className="container is-fluid">
-            <h1 className='title is-1'>Drop the beat</h1>
+            <Link to='/' className="button is-blue is-rounded is-fullwidth">Drop The Beat</Link>
         </header>
       </div>
     )
