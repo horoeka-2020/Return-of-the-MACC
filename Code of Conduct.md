@@ -31,7 +31,7 @@ In general I need...(general needs eg. kids, illness, sleep etc)
 - Maria: I get really tired sometimes and may need a 15min nap
 - Anna: 
 - Caroline: To feel positive and like things are moving in the right direction. also coffee
-- Claire:
+- Claire: Sleep, to take breaks when I'm feeling overwhelmed and get some space when I need. + coffee, first thing.. always. 
 
 ## Our Key Expectations
 - We want to come out of this project feeling good, no matter how far we get technically
@@ -55,16 +55,18 @@ Time-boxing will be crucial for our chatty vibes
   - Maria: prefers lunches together
   - Anna:
   - Caroline: likes to eat together but also sometimes prefers to eat on her own
-  - Claire:
+  - Claire: Communicate with everyone when we aren't on the same page & check in regularly.   
 
 ## Our Troubleshooting Strategies (How we get help)
 Individually
-- Technically
-Caroline: Asking facilitators, console logging, asking other people in our cohort for help especially if it's something they previously did in a project
+- Technically:
+Asking facilitators, console logging, asking other people in our cohort for help especially if it's something they previously did in a project
 - Non-technically
-Caroline: getting coffee and/or food, taking a walk, taking a break
+
+- Claire: Yoga & meditation, go for a walk, get a break outside and talk things out. 
+- Caroline: getting coffee and/or food, taking a walk, taking a break
 
 As a Team
-- Technically: After exhausting our own methods within the group(google, code examples, psuedocode etc), we will approach one of the facilitators for help
+- Technically: After exhausting our own methods within the group (google, code examples, psuedocode etc), we will approach one of the facilitators for help
 - Non-technically: Supporting each other as team members to take care of ourselves and our obligations outside EDA, encouraging each other to take breaks, eat, get enough sleep, etc. Also maybe doing meditation and yoga as a group
 
