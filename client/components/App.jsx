@@ -1,12 +1,9 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Header from './Header'
 import Footer from './Footer'
-import PinsList from './PinsList'
-import Map from './Map'
+import Home from './Home'
 import AddPin from './AddPin'
-// import Home from './Home'
 
 // import { getPins } from '../api'
 
@@ -19,10 +16,9 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <Route exact path='/' component={PinsList} />
-        <Route path='/' component={Map} />
-        <Route path='/form' component={AddPin} />
+        <Home />
         <Footer />
+        {/* {currentPage === 'Homepage' ? <Map /> : <AddPin/>} */}
       </>
     )
   }

@@ -2,11 +2,11 @@ import React from 'react'
 
 function Header () {
     return (
-      <header className='container m-5'>
-        <div className='block'>
-          <h1 className='title is-1'>Drop the beat</h1>
-        </div>
-      </header> 
+      <div className="is-fullwidth p-5">
+        <header className="container is-fluid">
+            <h1 className='title is-1'>Drop the beat</h1>
+        </header>
+      </div>
     )
   }
   

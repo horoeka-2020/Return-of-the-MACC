@@ -1,6 +1,22 @@
 footer {
-  background-color: $green;
-  padding:100px;
-  text-align: center;
-  font-size: large;
+  &.container.is-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .button {
+    padding: 5rem 0;
+    font-size: $size-1;
+  }
 }
+
+// In vanilla CSS the above complies to
+
+// footer.container.is-fluid {
+//   padding-left: 0;
+//   padding-right: 0;
+// }
+
+// footer .button {
+//   padding: 5rem 0;
+// }

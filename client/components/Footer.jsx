@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Footer () {
   return (
-    <footer className='container m-5 is-round'>
-    <div className='block'>
-      <h1 className='title is-1'><Link to='/form'>Add a pin</Link></h1>
-    </div>
-  </footer> 
+  <div className="is-fullwidth p-5">
+    <footer className="container is-fluid">
+      <Link to='/form' className="button is-primary is-rounded is-fullwidth">Add a pin</Link>
+    </footer>
+  </div>
   )
 }
 
