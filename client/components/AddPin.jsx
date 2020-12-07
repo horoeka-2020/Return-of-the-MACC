@@ -1,7 +1,7 @@
 import React from 'react'
 // import { connect } from 'react-redux'
+// import { Link } from 'react-router-dom'
 import { addPins } from '../api/apipins'
-
 
 class AddPin extends React.Component {
     state = {
@@ -97,10 +97,4 @@ class AddPin extends React.Component {
     }
 }
 
-    
-    
-
-
-
-    
 export default AddPin
