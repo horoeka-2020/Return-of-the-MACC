@@ -59,7 +59,7 @@ Time-boxing will be crucial for our chatty vibes
 
 ## Our Troubleshooting Strategies (How we get help)
 Individually
-- Technically
+- Technically:
 Asking facilitators, console logging, asking other people in our cohort for help especially if it's something they previously did in a project
 - Non-technically
 
