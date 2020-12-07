@@ -66,6 +66,6 @@ Asking facilitators, console logging, asking other people in our cohort for help
 Caroline: getting coffee and/or food, taking a walk, taking a break
 
 As a Team
-- Technically: After exhausting our own methods within the group(google, code examples, psuedocode etc), we will approach one of the facilitators for help
+- Technically: After exhausting our own methods within the group (google, code examples, psuedocode etc), we will approach one of the facilitators for help
 - Non-technically: Supporting each other as team members to take care of ourselves and our obligations outside EDA, encouraging each other to take breaks, eat, get enough sleep, etc. Also maybe doing meditation and yoga as a group
 
