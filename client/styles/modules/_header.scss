@@ -4,12 +4,18 @@ header {
   padding-right: 0px;
   text-align: center;
   font-size: large;
+  font-family: 'paralinesregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
 
 .button {
   background-color: $none;
   font-family: 'Happy Monkey';
+  font-family: 'paralinesregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   padding: 5rem 0;
-  font-size: $size-1;
+  font-size: 84px;
 }
 }
