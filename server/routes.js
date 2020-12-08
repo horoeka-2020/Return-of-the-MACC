@@ -4,7 +4,7 @@ const route = express.Router()
 
 route.use(express.json())
 
-route.get('/', (req, res) => {
+route.get('/map', (req, res) => {
   db.getPins()
     .then((response) => {
       return res.status(200).json(response)
