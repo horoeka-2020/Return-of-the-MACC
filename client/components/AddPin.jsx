@@ -87,7 +87,7 @@ class AddPin extends React.Component {
                         <div className="field">
                             <p className="control">
                             <button 
-                                className="button has-background-link"
+                                className="button has-background-danger"
                                 onClick={this.handleSubmit}>
                                 <label className="has-text-white">Add Pin</label>
                             </button>
