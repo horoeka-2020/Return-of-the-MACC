@@ -3,9 +3,9 @@ import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Header from './Header'
 import Footer from './Footer'
-import PinsList from './PinsList'
 import Home from './Home'
 import AddPin from './AddPin'
+import Welcome from './Welcome'
 
 // import { getPins } from '../api'
 
@@ -20,8 +20,8 @@ class App extends React.Component {
         <div className="is-fullwidth py-5">
           <main className="container is-fluid">
             <Header />
-            <Home />
-            <Route exact path='/' component={PinsList} />
+            <Route exact path='/' component={Welcome} />
+            <Route path='/map' component={Home} />
             <Route path='/form' component={AddPin} />
             <Footer />
           </main>
