@@ -1,6 +1,12 @@
 import React from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
+const newIcon = new L.Icon({
+  iconUrl: 'http://localhost:3000/images/marker.png',
+  iconRetinaUrl: 'http://localhost:3000/images/marker.png',
+  iconSize: [30, 30]
+})
+
 function Map (props) {
     return (
         <MapContainer
@@ -12,7 +18,7 @@ function Map (props) {
           
           {props.pinsCoordinates?.map((location) => {
             console.log(location.spotify_link)
-            return <Marker key={props.pinsCoordinates.indexOf(location)}
+            return <Marker icon={newIcon} key={props.pinsCoordinates.indexOf(location)}
             position={[location.lat, location.lng]}>
             <Popup key={props.pinsCoordinates.indexOf(location)}>
             <iframe src={location.spotify_link} width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media">
