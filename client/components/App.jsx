@@ -2,7 +2,6 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Header from './Header'
-import Footer from './Footer'
 import Home from './Home'
 import AddPin from './AddPin'
 import Welcome from './Welcome'
@@ -23,7 +22,6 @@ class App extends React.Component {
             <Route exact path='/' component={Welcome} />
             <Route path='/map' component={Home} />
             <Route path='/form' component={AddPin} />
-            <Footer />
           </main>
         </div>
       </>     
