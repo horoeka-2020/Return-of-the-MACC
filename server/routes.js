@@ -15,13 +15,12 @@ route.get('/map', (req, res) => {
   })
 
 route.post('/form', (req, res) => {
-  const { song, artist, album, username, spotify_link} = req.body
+  const { username, spotify_link, lat, lng} = req.body
   const newPin = {
-    song,
-    artist,
-    album,
     username,
-    spotify_link
+    spotify_link,
+    lat,
+    lng
   }
   db.addPin(newPin)
     .then((response) => {
