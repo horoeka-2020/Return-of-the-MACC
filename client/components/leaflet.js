@@ -10,6 +10,19 @@ export function getMap() {
    tileSize: 512,
    zoomOffset: -1,
    accessToken: 'pk.eyJ1IjoiY2F6MTk4NCIsImEiOiJja2lheGF6ZjEwNDlmMnFsYTQ3cXAwbXFpIn0.VtOkznqKXM_fbyFGhwdtDw' }).addTo(myMap)
+   
+   
+   const myIcon = L.icon({
+     iconUrl: 'marker.png',
+     iconSize: [38, 95],
+     iconAnchor: [22, 94],
+     popupAnchor: [-3, -76],
+     shadowUrl: '',
+     shadowSize: [68, 95],
+     shadowAnchor: [22, 94]
+   });
+   L.marker([50.505, 30.57], {icon: myIcon}).addTo(myMap);
 }
+
 
 getMap()
