@@ -30,9 +30,12 @@ class AddPin extends React.Component {
             <>
                 <div className='columns is-centered'>
                     <div className="column is-half">
-                        <h1 className="py-4">Add a Pin</h1>
+                       
+                        <h1 className="py-4 is-size-2 has-text-white">Add a Pin</h1>
+                        
+
                         <div className="field">
-                            <label>Song</label>
+                            <label className="is-text-white">Song</label>
                             <input
                                 className="input"
                                 type="text"

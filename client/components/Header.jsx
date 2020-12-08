@@ -5,7 +5,7 @@ function Header () {
     return (
       <div className="is-fullwidth p-5">
         <header className="container is-fluid">
-            <Link to='/' className="button is-blue is-rounded is-fullwidth">Drop The Beat</Link>
+            <Link to='/' className="button is-blue is-rounded is-fullwidth has-text-white">Drop The Beat</Link>
         </header>
       </div>
     )
