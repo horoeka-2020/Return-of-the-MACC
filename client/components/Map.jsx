@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 const newIcon = new L.Icon({
   iconUrl: 'http://localhost:3000/images/marker.png',
   iconRetinaUrl: 'http://localhost:3000/images/marker.png',
-  iconSize: [30, 30]
+  iconSize: [50, 50]
 })
 
 function Map (props) {
