@@ -7,7 +7,7 @@
     "test": "jest --watchAll --verbose",
     "start": "node server",
     "client": "webpack --config client/webpack.config.js --watch",
-    "server": "nodemon server",
+    "server": "node server",
     "dev": "run-p client server",
     "knex": "knex --knexfile server/db/knexfile.js"
   },
