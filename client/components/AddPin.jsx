@@ -74,8 +74,12 @@ class AddPin extends React.Component {
                                 onChange={this.handleChange}
                             />
                         </div>
-                        <div className="">
-                            <a target="_blank" href="https://open.spotify.com/search">Click here to get Spotify link</a>
+                        <div className="field">
+                        <button className="button is-primary is-outlined">
+                        <label className="has-text-white">
+                        <a target="_blank" href="https://open.spotify.com/search">Select song in Spotify</a>
+                            </label>
+                            </button>
                         </div>
                         <div className="field">
                         <label className="has-text-white">Spotify Link</label>
