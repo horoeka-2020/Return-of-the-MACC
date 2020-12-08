@@ -44,7 +44,11 @@ class AddPin extends React.Component {
                             />
                         </div>
                         <div className="">
+                        <button className="button is-primary is-outlined">
+                        <label className="has-text-white">
                             <a target="_blank" href="https://open.spotify.com/search">Click here to get Spotify link</a>
+                            </label>
+                            </button>
                         </div>
                         <div className="field">
                         <label className="has-text-white">Spotify Link</label>
