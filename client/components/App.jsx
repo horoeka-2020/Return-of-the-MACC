@@ -24,7 +24,6 @@ class App extends React.Component {
             <Route exact path='/' component={PinsList} />
             <Route path='/form' component={AddPin} />
             <Footer />
-            {/* {currentPage === 'Homepage' ? <Map /> : <AddPin/>} */}
           </main>
         </div>
       </>     
