@@ -35,7 +35,7 @@ class AddPin extends React.Component {
                         
 
                         <div className="field">
-                            <label className="is-text-white">Song</label>
+                            <label className="has-text-white">Song</label>
                             <input
                                 className="input"
                                 type="text"
@@ -45,7 +45,7 @@ class AddPin extends React.Component {
                             />
                         </div>
                         <div className="field">
-                            <label>Artist</label>
+                            <label className="has-text-white">Artist</label>
                             <input
                                 className="input"
                                 type="text"
@@ -55,7 +55,7 @@ class AddPin extends React.Component {
                             />
                         </div>
                         <div className="field">
-                            <label>Album</label>
+                        <label className="has-text-white">Album</label>
                             <input
                                 className="input"
                                 type="text"
@@ -65,7 +65,7 @@ class AddPin extends React.Component {
                             />
                         </div>
                         <div className="field">
-                            <label>Username</label>
+                        <label className="has-text-white">Username</label>
                             <input
                                 className="input"
                                 type="text"
@@ -75,7 +75,7 @@ class AddPin extends React.Component {
                             />
                         </div>
                         <div className="field">
-                            <label>Spotify Link</label>
+                        <label className="has-text-white">Spotify Link</label>
                             <input
                                 className="input"
                                 type="text"
@@ -87,9 +87,9 @@ class AddPin extends React.Component {
                         <div className="field">
                             <p className="control">
                             <button 
-                                className="button is-success"
+                                className="button has-background-link"
                                 onClick={this.handleSubmit}>
-                                Add Pin
+                                <label className="has-text-white">Add Pin</label>
                             </button>
                             </p>
                         </div>
