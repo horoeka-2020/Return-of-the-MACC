@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'paralinesregular';
+  src: url('paralines-regular-webfont.woff2') format('woff2'),
+       url('paralines-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1 {
+  font-family: 'paralinesregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  }
