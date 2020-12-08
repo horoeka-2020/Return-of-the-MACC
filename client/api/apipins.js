@@ -1,7 +1,7 @@
 import requestor from './consume'
 
 export function getPins (consume = requestor) {
-  return consume('/')
+  return consume('/map')
     .then(res => {
       return res.body
     })
