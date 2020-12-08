@@ -8,6 +8,7 @@
 @import "../../node_modules/bulma/bulma.sass";
 
 // All components i.e header, footer, navigation...
+@import "./modules/layout";
 @import "./modules/header";
 @import "./modules/footer";
 @import "./modules/form";

@@ -29,7 +29,7 @@ When stressed I need...(when I’m stressed ... I need...)
 
 In general I need...(general needs eg. kids, illness, sleep etc)
 - Maria: I get really tired sometimes and may need a 15min nap
-- Anna: 
+- Anna: Sometimes I need some quiet time to recharge.
 - Caroline: To feel positive and like things are moving in the right direction. also coffee
 - Claire: Sleep, to take breaks when I'm feeling overwhelmed and get some space when I need. + coffee, first thing.. always. 
 
@@ -53,7 +53,7 @@ Time-boxing will be crucial for our chatty vibes
 - Don't be afraid or disheartened by conflict, we are here for one another
 - Eating together:
   - Maria: prefers lunches together
-  - Anna:
+  - Anna: Patience and respect. Possibly alcohol? :D
   - Caroline: likes to eat together but also sometimes prefers to eat on her own
   - Claire: Communicate with everyone when we aren't on the same page & check in regularly.   
 
@@ -65,6 +65,8 @@ Asking facilitators, console logging, asking other people in our cohort for help
 
 - Claire: Yoga & meditation, go for a walk, get a break outside and talk things out. 
 - Caroline: getting coffee and/or food, taking a walk, taking a break
+- Anna: Lots of sleep, healthy meals, walks in the sun and meditation.
+- Maria: Team check-ins, hugs and physical exercise (yoga and f45).
 
 As a Team
 - Technically: After exhausting our own methods within the group (google, code examples, psuedocode etc), we will approach one of the facilitators for help
