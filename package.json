@@ -10,7 +10,7 @@
     "server": "node server",
     "build": "run-p build:client build:server",
     "build:client": "webpack",
-    "build:server": "knex migrate:latest --env production",
+    "build:server": "knex migrate:latest --env development",
     "dev": "run-p client server",
     "knex": "knex --knexfile server/db/knexfile.js"
   },
