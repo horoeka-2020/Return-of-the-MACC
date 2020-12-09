@@ -17,6 +17,7 @@ function addPin(newPin, db = connection) {
 }
 // the above returns the pins table with a newPin inserted
 
+
 // function getLocation(id, db = connection) {
 //   console.log(id)
 //   return db('pins')
