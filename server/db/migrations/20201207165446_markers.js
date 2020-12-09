@@ -7,8 +7,8 @@ exports.up = function(knex) {
         table.string('album')
         table.string('username')
         table.string('spotify_link')
-        table.real('lat')
-        table.real('lng')
+        table.string('lat')
+        table.string('lng')
     })
 }
 
