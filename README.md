@@ -2,6 +2,8 @@
 Drop da Beat - 
 group project by Maria Gedye, Anna Green, Caroline Pitcher and Claire Rennie
 
+https://drop-tha-beat.herokuapp.com
+
 User Stories:
 As a user, I would like...
 - to see a map of my location
