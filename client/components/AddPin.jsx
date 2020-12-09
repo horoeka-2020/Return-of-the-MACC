@@ -2,6 +2,7 @@ import React from 'react'
 // import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { addPins } from '../api/apipins'
+import Header from './Header'
 
 class AddPin extends React.Component {
     state = {
@@ -28,10 +29,11 @@ class AddPin extends React.Component {
     render() {
         return (
             <>
+            <Header />
                 <div className='columns is-centered'>
                     <div className="column is-half">
                        
-                        <h1 className="py-4 is-size-1 has-text-white">Add a Pin</h1>
+                        <h1 className="py-4 is-size-1 has-text-white">Add a song to the map</h1>
                         
                         <div className="field">
                         <label className="has-text-white">Username</label>
@@ -43,15 +45,17 @@ class AddPin extends React.Component {
                                 onChange={this.handleChange}
                             />
                         </div>
-                        <div className="">
-                        <button className="button is-primary is-outlined">
-                        <label className="has-text-white">
-                            <a target="_blank" href="https://open.spotify.com/search">Click here to get Spotify link</a>
-                            </label>
+                        <div className="field">
+                        <button className="button is-medium">   
+                        <span className="icon is-medium">
+                        <i className="fab fa-spotify"></i>
+                        </span>
+                            <a target="_blank" href="https://open.spotify.com/search">
+                        <label className="has-text-white"> <span>Spotify</span></label></a>
                             </button>
                         </div>
                         <div className="field">
-                        <label className="has-text-white">Spotify Link</label>
+                        <label className="has-text-white">Place spotify link here</label>
                             <input
                                 className="input"
                                 type="text"
@@ -83,9 +87,9 @@ class AddPin extends React.Component {
                         <div className="field">
                             <p className="control">
                             <button 
-                                className="button has-background-danger"
+                                className="button has-background"
                                 onClick={this.handleSubmit}><Link to='/map'>
-                                <label className="has-text-white">Add Pin</label></Link>
+                                <label className="has-text-white">Add Song</label></Link>
                             </button>
                             </p>
                         </div>

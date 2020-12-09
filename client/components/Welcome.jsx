@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 function Welcome () {
     return (
-      <div >
-            <Link to='/map'></Link>
-            <img src="images/Dropthebeaticon.png"></img>
-      </div>
+      <>
+        <Link to='/map'>
+          <img src="images/Dropthebeaticon.png"/></Link>
+      </>
     )
   }
   

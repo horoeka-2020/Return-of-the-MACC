@@ -18,7 +18,6 @@ class App extends React.Component {
       <>
         <div className="is-fullwidth py-5">
           <main className="container is-fluid">
-            <Header />
             <Route exact path='/' component={Welcome} />
             <Route path='/map' component={Home} />
             <Route path='/form' component={AddPin} />

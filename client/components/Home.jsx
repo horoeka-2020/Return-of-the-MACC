@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import Map from './Map'
 import { getPins } from '../api/apipins'
 import Footer from './Footer'
+import Header from './Header'
 
 class Home extends React.Component {
   state = {
@@ -20,6 +21,7 @@ class Home extends React.Component {
     const { pinsCoordinates } = this.state
     return (
       <>
+      <Header />
         <Map pinsCoordinates={pinsCoordinates} />
         <Footer />
       </> 
