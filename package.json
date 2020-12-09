@@ -8,7 +8,9 @@
     "start": "node server",
     "client": "webpack --config client/webpack.config.js --watch",
     "server": "node server",
-    "build": "knex migrate:latest",
+    "build": "run-p build:client build:server",
+    "build:client": "webpack",
+    "build:server": "knex migrate:latest",
     "dev": "run-p client server",
     "knex": "knex --knexfile server/db/knexfile.js"
   },
