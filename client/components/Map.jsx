@@ -2,8 +2,8 @@ import React from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const newIcon = new L.Icon({
-  iconUrl: 'http://localhost:3000/images/marker.png',
-  iconRetinaUrl: 'http://localhost:3000/images/marker.png',
+  iconUrl: 'http://s3.amazonaws.com/dropthabeat/marker.png',
+  iconRetinaUrl: 'http://s3.amazonaws.com/dropthabeat/marker.png',
   iconSize: [50, 50]
 })
 
